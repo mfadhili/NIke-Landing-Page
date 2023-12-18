@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import {PopularProducts, CustomerReviews, Services, Subscribe, SuperQuality, SpecialOffer, Footer} from "./sections/index.js"
+import {Nav} from "./components/Nav.jsx";
 
 function App() {
 
   return (
       <main className="relative">
-          Nav
+          <Nav/>
           <section className="xl:padding-1 wide:padding-r padding-b">
               Hero
           </section>
