@@ -5,6 +5,7 @@ import {SpecialOffer} from "./SpecialOffer.jsx";
 import {Services} from "./Services.jsx";
 import {SuperQuality} from "./SuperQuality.jsx";
 import {PopularProducts} from "./PopularProducts.jsx";
+import {Hero} from "./Hero.jsx";
 
 export {
     Footer,
@@ -13,5 +14,6 @@ export {
     SpecialOffer,
     Services,
     SuperQuality,
-    PopularProducts
+    PopularProducts,
+    Hero
 }
